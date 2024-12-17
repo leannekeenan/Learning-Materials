@@ -7,7 +7,7 @@ This is a collection of study materials, coursework, practice exercises, coding 
 This repository includes:
 
 - **Coursework**: Materials and projects from formal courses, tutorials, and self-study programs.
-- **Challenges**: Solutions to coding challenges from platforms like LeetCode, CodeWars, etc.
+- **Challenges**: Solutions to coding challenges from platforms like CodeWars.
 - **Practice Projects**: Mini-projects and code snippets created for hands-on practice with various technologies.
 - **Tutorials & Guides**: Helpful tutorials, guides, and learning resources on web development topics.
 - **Notes & Insights**: Summaries of key concepts and solutions learned from different learning experiences.
