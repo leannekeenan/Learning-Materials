@@ -1,5 +1,7 @@
 # Learning Materials
 
+<p><img align="center" src="https://imgur.com/G9I5iCd" alt="Learning Materials"></p>
+
 This is a collection of study materials, coursework, practice exercises, coding challenges, and other resources I use to continue growing my web development and programming skills. The goal of this repository is to keep track of my progress, share educational resources, and store reference materials for future use.
 
 ## Contents
