@@ -1,90 +1,38 @@
 let q1 = document.createElement("p")
 let a1 = document.createElement("p")
 
-let q2 = document.createElement("p")
-let a2 = document.createElement("p")
-
-let q3 = document.createElement("p")
-let a3 = document.createElement("p")
-
-let q4 = document.createElement("p")
-let a4 = document.createElement("p")
-
-let q5 = document.createElement("p")
-let a5 = document.createElement("p")
-
-
-
 
 q1.innerText = 'Rock Paper Scissors - write a function to imulate the game returning a winner or a draw when a tie occurs'
 
-
+//define the function game which accepts a single parameter for the user players value
 let game = (player) => {
-
+    //define the options that can be choosen in the game 
     let options = ['rock', 'paper', 'scissor']
+    //define the computers randomized choice by selecting whole numbers from 0 to the length of the options available to choose from in the game
     let comp = options[Math.floor(Math.random() * options.length)];
-
+    //define what happens if the players parameter matches the randomized computer choice
     if(player === comp) {
         return { player, comp, result: 'tie'}
      }
+     //define all possible scenarios of the player winning and define the return response
      else if (
        ( player === 'rock' && comp === 'scissor' )|| 
         (player === 'scissor' && comp === 'paper') || 
         (player === 'paper' && comp === 'rock')) {
             return {  player, comp, result: "player wins"}
      }
+     //return a scenario where the computer wins if the previous are not met
      else {
         return {player, comp, result: 'computer wins'}
      }
     
 };
+//define a variable that holds the function game(), which in turn holds the value for the players option choice
 let result = game("scissor");
 
+//print to the page element a1 the value of the players option choice variable, and the computers option choice, and the final result of the game to determine a winner. 
 a1.innerText = `Player chose ${result.player}, Computer chose ${result.comp}: ${result.result}`;
-
-
-
-q2.innerText = ''
-
-a2.innerText = `
-
-`
-
-q3.innerText = ''
-
-a3.innerText = `
-
-`
-
-q4.innerText = ''
-
-a4.innerText = `
-
-`
-
-q5.innerText = ''
-
-a5.innerText = `
-
-`
-
 
 
 document.body.appendChild(q1)
 document.body.appendChild(a1)
-
-
-document.body.appendChild(q2)
-document.body.appendChild(a2)
-
-
-document.body.appendChild(q3)
-document.body.appendChild(a3)
-
-
-document.body.appendChild(q4)
-document.body.appendChild(a4)
-
-
-document.body.appendChild(q5)
-document.body.appendChild(a5)
