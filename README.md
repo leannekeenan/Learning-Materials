@@ -41,4 +41,4 @@ To clone this repository and start exploring the content:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/learning-repository.git
+   git clone https://github.com/leannekeenan/learning-repository.git
