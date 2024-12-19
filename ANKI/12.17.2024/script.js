@@ -38,7 +38,7 @@ let result = game("scissor");
 //print to the page element a1 the value of the players option choice variable, and the computers option choice, and the final result of the game to determine a winner. 
 a1.innerText = `Player chose ${result.player}, Computer chose ${result.comp}: ${result.result}`;
 response.innerText = `
-//define the function game which accepts a single parameter for the user players value
+//define the function "game" which accepts a single parameter for the user players value
 let game = (player) => {
 
     //define the options that can be choosen in the game 
